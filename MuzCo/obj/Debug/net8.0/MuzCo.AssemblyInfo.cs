@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MuzCo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae180c71d4a534c3c9910fc6a002d890f760d39d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MuzCo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MuzCo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

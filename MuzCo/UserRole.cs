@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Program
+namespace MuzCo
 {
-    static void Main(string[] args)
+    public enum UserRole
     {
-        
+        Customer,
+        Admin
     }
 }
