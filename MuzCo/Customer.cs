@@ -6,14 +6,21 @@ using System.Threading.Tasks;
 
 namespace MuzCo
 {
-    class Customer:User
+    public class Customer:User
     {
         private Pizzeria pizzeria;
         private Order order;
 
+        public Customer(string id, string userName, string password) : base(id, userName, password, UserRole.Customer)
+        {
+
+            throw new NotImplementedException();
+
+        }
+
         public override void ShowMenu(User registeredUser)
         {
-            throw new ArgumentException("Invalid registeredUser", nameof(registeredUser));
+            throw new NotImplementedException();
         }
     }
 }

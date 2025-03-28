@@ -6,35 +6,39 @@ using System.Threading.Tasks;
 
 namespace MuzCo
 {
-    class Admin:User
+    public class Admin:User
     {
         private List<Pizza> allPizzas;
         private string ordersFile = "orders.json"; 
         private string pizzasFile = "data.json";
 
-    
+        public Admin(string id, string userName, string password) : base(id, userName, password, UserRole.Customer)
+        {
+
+            throw new NotImplementedException();
+        }
 
         public override void ShowMenu(User registeredUser)
         {
-            throw new ArgumentException("Invalid registeredUser", nameof(registeredUser));
+            throw new NotImplementedException();
         }
 
-        private void DeleteOrder()
-        { throw new ArgumentException("Invalid"); }
+        public void DeleteOrder()
+        { throw new NotImplementedException(); }
 
-        private void AddNewPizza()
-        { throw new ArgumentException("Invalid "); }
+        public void AddNewPizza()
+        { throw new NotImplementedException(); }
 
         private List<Pizza> LoadPizzasFromJson()
-        { throw new ArgumentException("Invalid "); }
+        { throw new NotImplementedException(); }
 
         private void SavePizzasToJson()
-        { throw new ArgumentException("Invalid "); }
+        { throw new NotImplementedException(); }
 
         private void LoadOrdersFromJson()
-        { throw new ArgumentException("Invalid "); }
+        { throw new NotImplementedException(); }
 
         private void SaveOrdersToJson()
-        { throw new ArgumentException("Invalid "); }
+        { throw new NotImplementedException(); }
         }
 }

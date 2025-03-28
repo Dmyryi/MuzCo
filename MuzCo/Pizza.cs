@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MuzCo
 {
-    class Pizza
+    public class Pizza
     {
         public string Name { get; set; }
         public double Price { get; set; }
@@ -15,10 +15,7 @@ namespace MuzCo
 
         public Pizza(string name, double price)
         {
-            this.Name = name;
-            this.Price = price;
-
-            this.Favourite = false;
+            throw new NotImplementedException();
         }
     }
 }

@@ -12,17 +12,17 @@ namespace MuzCo
         
         public void LoadData(string filePath)
         {
-            throw new ArgumentException("Invalid file path", nameof(filePath));
+            throw new NotImplementedException();
         }
 
         public void CreateOrder(string userId)
         {
-            throw new ArgumentException("Invalid userId", nameof(userId));
+            throw new NotImplementedException();
         }
 
        private void SaveOrder(Order order)
         {
-            throw new ArgumentException("Invalid order", nameof(order));
+            throw new NotImplementedException();
         }
     }
 }

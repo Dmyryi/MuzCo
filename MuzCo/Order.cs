@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MuzCo
 {
-    class Order
+    public class Order
     {
         public string OrderId { get; set; }
         public string UserId { get; set; }
@@ -14,15 +14,24 @@ namespace MuzCo
         public double TotalPrice { get; set; }
         public DateTime OrderDate { get; set; }
 
+        public Order()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Order(string userId, List<string> pizzas, double totalPrice)
+        {
+            throw new NotImplementedException();
+        }
 
         private List<Order> LoadOrders()
         {
-            throw new ArgumentException("Invalid filePath");
+            throw new NotImplementedException();
         }
 
         public void GetOrderHistory(string id)
         {
-            throw new ArgumentException("Invalid id", nameof(id));
+            throw new NotImplementedException();
         }
 
        
