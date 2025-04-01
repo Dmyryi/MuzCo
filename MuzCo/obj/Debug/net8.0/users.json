@@ -1,0 +1,27 @@
+[
+
+  {
+    "id": "bfffc1fc-485f-4205-84c9-fe0f685be165",
+    "userName": "Dim",
+    "password": "qwerty",
+    "role": "Customer"
+  },
+  {
+    "id": "e0f1207c-fdc2-4e08-bd86-f54075f60016",
+    "userName": "Dom",
+    "password": "admin",
+     "role": "Admin"
+  },
+  {
+    "id": "3f2b4542-80a1-42a4-8dea-49290475ea3b",
+    "userName": "Dimon",
+    "password": "qwerty12345",
+    "role": "Customer"
+  },
+  {
+    "id": "bb91c0e9-9520-49d4-89fa-cbfde66daae9",
+    "userName": "Domestos",
+    "password": "qwerty12345",
+    "role": "Customer"
+  }
+]

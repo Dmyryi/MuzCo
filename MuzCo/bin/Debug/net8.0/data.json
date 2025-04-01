@@ -1,0 +1,27 @@
+[
+
+  {
+    "Name": "Italiano",
+    "Price": 200.0,
+    "Image": null,
+    "Favourite": false
+  },
+  {
+    "Name": "Diablo",
+    "Price": 299.0,
+    "Image": null,
+    "Favourite": false
+  },
+  {
+    "Name": "Bir-Burger",
+    "Price": 230.0,
+    "Image": null,
+    "Favourite": false
+  },
+  {
+    "Name": "Myslyvska",
+    "Price": 130.0,
+    "Image": null,
+    "Favourite": false
+  }
+]

@@ -13,3 +13,6 @@ C:\Users\muzal\source\repos\MuzCo\MuzCo\obj\Debug\net8.0\refint\MuzCo.dll
 C:\Users\muzal\source\repos\MuzCo\MuzCo\obj\Debug\net8.0\MuzCo.pdb
 C:\Users\muzal\source\repos\MuzCo\MuzCo\obj\Debug\net8.0\MuzCo.genruntimeconfig.cache
 C:\Users\muzal\source\repos\MuzCo\MuzCo\obj\Debug\net8.0\ref\MuzCo.dll
+C:\Users\muzal\source\repos\MuzCo\MuzCo\obj\Debug\net8.0\MuzCo.csproj.AssemblyReference.cache
+C:\Users\muzal\source\repos\MuzCo\MuzCo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\muzal\source\repos\MuzCo\MuzCo\obj\Debug\net8.0\MuzCo.csproj.Up2Date

@@ -3,69 +3,92 @@
   <Class Name="MuzCo.User">
     <Position X="2.25" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAgAAAAAAAAAAAAAAAABABgCAQIAAAABAAA=</HashCode>
+      <HashCode>AAACAAgAAAgAAAgAAAAQAAIAAABBABgCAQIAEAABAAA=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Program" Collapsed="true">
-    <Position X="7.75" Y="1.5" Width="1.5" />
+    <Position X="7.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MuzCo.Pizzeria" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="6" Y="1.5" Width="1.5" />
+  <Class Name="MuzCo.Pizzeria" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABIAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAAAQAAAAAAAAAABAAAAAAAAAiAABIAAAAAA=</HashCode>
       <FileName>Pizzeria.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
-  <Class Name="MuzCo.Pizza" Collapsed="true">
-    <Position X="9.5" Y="0.5" Width="1.5" />
+  <Class Name="MuzCo.Pizza">
+    <Position X="12" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAABAAAAAAAQAAAAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>Pizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MuzCo.Order" Collapsed="true">
-    <Position X="7.75" Y="0.5" Width="1.5" />
+  <Class Name="MuzCo.Order">
+    <Position X="10.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>GAAAAAAAAAAAAAAAAAAABAgAAAAAYAEAAAAAAAAAAAA=</HashCode>
+      <HashCode>GAEAAAAEAAAAAAAEAAAABAgAAAAAYAEIAAAAAAAAAAA=</HashCode>
       <FileName>Order.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="MuzCo.Feedback" Collapsed="true">
-    <Position X="6" Y="0.5" Width="1.5" />
+  <Class Name="MuzCo.Feedback">
+    <Position X="8.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EABAEAEAAAAEAAwAAAAAAAgAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <HashCode>EABAEgAAAAAEAAwEAAAAAAgAAAAAAQAAAAAAAQAAAAA=</HashCode>
       <FileName>Feedback.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="MuzCo.Customer">
-    <Position X="3.5" Y="4.25" Width="1.5" />
+    <Position X="4.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAABAAA=</HashCode>
+      <HashCode>AAAAAAABAAAAAAIAAAAAAABAAAAAAAQAAAAAAAABAAA=</HashCode>
       <FileName>Customer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MuzCo.Admin" Collapsed="true">
-    <Position X="1.25" Y="4.25" Width="1.5" />
+    <Position X="0.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEQAAAACAAAAAAAAQAAAAAAABAAACgEAEAAAAABAAA=</HashCode>
+      <HashCode>AAEQCAAACAAAAAAAAQAAAAAAABAAACgEAEAAAAABAEA=</HashCode>
       <FileName>Admin.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="MuzCo.UserDto">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>UserDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="MuzCo.ICreateOrder" Collapsed="true">
-    <Position X="6" Y="2.75" Width="1.5" />
+    <Position X="14" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ICreateOrder.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="MuzCo.UserRole" Collapsed="true">
-    <Position X="2.5" Y="0.5" Width="1.5" />
+  <Interface Name="MuzCo.IFeedback" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFeedback.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MuzCo.IOrder" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOrder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MuzCo.UserRole">
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UserRole.cs</FileName>

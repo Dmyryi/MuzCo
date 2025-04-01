@@ -15,7 +15,10 @@ namespace MuzCo
 
         public Pizza(string name, double price)
         {
-            throw new NotImplementedException();
+            this.Name = name;
+            this.Price = price;
+
+            this.Favourite = false;
         }
     }
 }
