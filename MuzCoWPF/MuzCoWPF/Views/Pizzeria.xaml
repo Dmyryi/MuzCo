@@ -1,0 +1,97 @@
+﻿<UserControl x:Class="MuzCoWPF.Views.Pizzeria"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="800" d:DesignWidth="1050">
+
+    <Grid Background="#F0F0F0">
+        <!-- Верхняя панель -->
+        <StackPanel Margin="0,20,0,0" Orientation="Horizontal" VerticalAlignment="Top" Width="990">
+            <Image Source="/Image/logoMuzCo.png" Width="60" Height="60" Margin="0,0,20,0"/>
+        </StackPanel>
+
+        <StackPanel VerticalAlignment="Top" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,35,0,0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <TextBlock Text="📍 Київ" FontSize="16" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,35,45,0">
+            <Button Width="32" Height="32" ToolTip="Кошик" Click="OpenCart_Click">
+                <StackPanel>
+                    <TextBlock Text="🛒" FontSize="16"/>
+                    <TextBlock Text="{Binding CartCount}" FontSize="10" Foreground="Red" HorizontalAlignment="Right"/>
+                </StackPanel>
+            </Button>
+
+            <Button Width="32" Height="32" ToolTip="Профiль">
+                <TextBlock Text="👤" FontSize="16"/>
+            </Button>
+        </StackPanel>
+        <!-- Меню вкладок -->
+        <Border Margin="0,80,0,0" CornerRadius="20"  Height="50" VerticalAlignment="Top" Background="#FFF" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+
+                <RadioButton Style="{StaticResource BtnStyle}" IsChecked="True">
+                    <TextBlock Text="Піца" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </RadioButton>
+                <RadioButton Style="{StaticResource BtnStyle}" IsChecked="False">
+                    <TextBlock Text="Соуси" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </RadioButton>
+                <RadioButton Style="{StaticResource BtnStyle}" IsChecked="False">
+                    <TextBlock Text="Напої" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </RadioButton>
+            </StackPanel>
+        </Border>
+
+        <!-- Сетка карточек -->
+        <ScrollViewer Margin="30,150,30,20" >
+            <ItemsControl ItemsSource="{Binding Pizzas}" Background="Transparent">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Border Background="White" CornerRadius="20" Margin="10" Width="220" Padding="10">
+                            <StackPanel>
+                                <!-- Картинка -->
+                                <Grid>
+                                    <Image Source="{Binding Image}"/>
+                                    <Button Width="24" Height="24" HorizontalAlignment="Right" VerticalAlignment="Top" Background="Transparent">
+                                        <TextBlock Text="♡" FontSize="16"/>
+                                    </Button>
+                                </Grid>
+
+                                <!-- Название и цена -->
+                                <Grid>
+                                    <TextBlock Text="{Binding Name}" FontSize="16" FontWeight="SemiBold"/>
+                                    <TextBlock Text="{Binding Price, StringFormat='{}{0}₴'}"
+                                               FontSize="14" Foreground="Gray" HorizontalAlignment="Right"/>
+                                </Grid>
+
+                                <!-- Описание -->
+                                <TextBlock Text="Тут буде інформація про склад піці" FontSize="12" Foreground="Gray" Margin="0,5,0,0"/>
+
+                                <!-- Кнопка заказать -->
+                                <Button Width="32" Height="32"
+        Background="#FD573E" BorderBrush="Transparent" Margin="0,10,0,0"
+        ToolTip="Додати до замовлення"
+        Command="{Binding DataContext.AddToCartCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+        CommandParameter="{Binding}">
+                                    <TextBlock Text="➤" FontSize="16" Foreground="White"/>
+                                </Button>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

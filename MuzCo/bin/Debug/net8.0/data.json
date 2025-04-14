@@ -1,5 +1,4 @@
 [
-
   {
     "Name": "Italiano",
     "Price": 200.0,
@@ -21,6 +20,12 @@
   {
     "Name": "Myslyvska",
     "Price": 130.0,
+    "Image": null,
+    "Favourite": false
+  },
+  {
+    "Name": "4 Cheese",
+    "Price": 165.0,
     "Image": null,
     "Favourite": false
   }

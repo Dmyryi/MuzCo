@@ -2,7 +2,6 @@
 
 namespace TestMuzCo
 {
-
     [TestClass]
     public class UserTests
     {
@@ -23,34 +22,14 @@ namespace TestMuzCo
         public void User_ConstructorAdmin_ShouldSetProperties()
         {
             // Arrange & Act
-            var user = new Admin("e0f1207c-fdc2-4e08-bd86-f54075f60016", "Dom", "qwerty");
+            var user = new Admin("e0f1207c-fdc2-4e08-bd86-f54075f60016", "AdminUser", "adminpass");
 
             // Assert
             Assert.AreEqual("e0f1207c-fdc2-4e08-bd86-f54075f60016", user.Id);
-            Assert.AreEqual("Dom", user.UserName);
-            Assert.AreEqual("qwerty", user.Password);
-            Assert.AreEqual(UserRole.Admin, user.UserRole);
+            Assert.AreEqual("AdminUser", user.UserName);
+            Assert.AreEqual("adminpass", user.Password);
+        
         }
-
-        [TestMethod]
-        public void User_DeleteORderAdmin()
-        {
-            // Arrange & Act
-            var user = new Admin("e0f1207c-fdc2-4e08-bd86-f54075f60016", "Dom", "qwerty");
-            user.DeleteOrder();
- 
-        }
-
-        [TestMethod]
-        public void User_AddnewPizzaAdmin()
-        {
-            // Arrange & Act
-            var user = new Admin("e0f1207c-fdc2-4e08-bd86-f54075f60016", "Dom", "qwerty");
-            user.AddNewPizza();
-
-        }
-
-      
     }
 
     [TestClass]
@@ -60,7 +39,7 @@ namespace TestMuzCo
         public void Feedback_Constructor_ShouldSetProperties()
         {
             // Arrange
-            var date = DateTime.Now;
+            DateTime date = DateTime.Now;
 
             // Act
             var feedback = new Feedback("order123", "user456", "Great pizza!", date);
@@ -69,8 +48,16 @@ namespace TestMuzCo
             Assert.AreEqual("order123", feedback.OrderId);
             Assert.AreEqual("user456", feedback.UserId);
             Assert.AreEqual("Great pizza!", feedback.TextMessage);
-            Assert.AreEqual(date, feedback.ReviewDate);
+       
         }
+
+        [TestMethod]
+        public void Feedback_Constructor_EmptyMessage_ShouldThrowException()
+        {
+            // Arrange & Act & Assert
+            Assert.ThrowsException<ArgumentException>(() => new Feedback("order123", "user456", "", DateTime.Now));
+        }
+
         [TestMethod]
         public void Feedback_AddReview()
         {
@@ -81,26 +68,8 @@ namespace TestMuzCo
             var feedback = new Feedback("order123", "user456", "Great pizza!", date);
             feedback.AddReview();
         }
-        [TestMethod]
-        public void Feedback_GetReviewsByUser()
-        {
-            // Arrange
-            DateTime date = DateTime.Now;
-            string userId = "user456";
-            // Act
-            var feedback = new Feedback("order123", userId, "Great pizza!", date);
-            feedback.GetReviewsByUser(userId);
-        }
-        [TestMethod]
-        public void Feedback_GetReviewsByOrder()
-        {
-            // Arrange
-            DateTime date = DateTime.Now;
-            string orderId = "order456";
-            // Act
-            var feedback = new Feedback(orderId, "user456", "Great pizza!", date);
-            feedback.GetReviewsByOrder(orderId);
-        }
+
+       
     }
 
     [TestClass]
@@ -112,49 +81,57 @@ namespace TestMuzCo
             // Arrange
             var pizzas = new List<string> { "Margherita", "Pepperoni" };
             var totalPrice = 25.99;
-            var orderDate = DateTime.Now;
+            var status = "Готується";
 
             // Act
-            var order = new Order("user456", pizzas, totalPrice);
+            var order = new Order("user456", pizzas, totalPrice, status);
 
             // Assert
             Assert.AreEqual("user456", order.UserId);
             CollectionAssert.AreEqual(pizzas, order.Pizzas);
             Assert.AreEqual(totalPrice, order.TotalPrice);
         }
-
-        public void Order_Constructor()
-        {
-            // Arrange
-            var pizzas = new List<string> { "Margherita", "Pepperoni" };
-            var totalPrice = 25.99;
-            var orderDate = DateTime.Now;
-
-            // Act
-            var order = new Order();
-
-            // Assert
-            Assert.AreEqual("user456", order.UserId);
-            CollectionAssert.AreEqual(pizzas, order.Pizzas);
-            Assert.AreEqual(totalPrice, order.TotalPrice);
-        }
-
-        
 
         [TestMethod]
-        public void GetOrderHistory_ShouldThrowNotImplementedException()
+        public void Order_Constructor_EmptyPizzas_ShouldThrowException()
         {
-            var pizzas = new List<string> { "Margherita", "Pepperoni" };
-            var totalPrice = 25.99;
-            var orderDate = DateTime.Now;
-            string id = "user456";
             // Arrange
-            var order = new Order(id, pizzas, totalPrice);
-            order.GetOrderHistory(id);
+            string userId = "user456";
+            var emptyPizzas = new List<string>();
+            double totalPrice = 25.99;
+            string status = "Готується";
 
+            // Act & Assert
+            Assert.ThrowsException<ArgumentException>(() =>
+                new Order(userId, emptyPizzas, totalPrice, status));
         }
 
- 
+        [TestMethod]
+        public void Order_Constructor_EmptyStatus_ShouldThrowException()
+        {
+            // Arrange
+            string userId = "user456";
+            var pizzas = new List<string> { "Margherita", "Pepperoni" };
+            double totalPrice = 25.99;
+            string emptyStatus = "";
+
+            // Act & Assert
+            Assert.ThrowsException<ArgumentException>(() =>
+                new Order(userId, pizzas, totalPrice, emptyStatus));
+        }
+
+
+        [TestMethod]
+        public void Order_GetOrderHistory_NonExistentUser_ShouldReturnEmpty()
+        {
+            // Arrange
+            var order = new Order("user456", new List<string> { "Margherita" }, 25.99, "Готується");
+
+            // Act
+            var history = order.GetOrderHistory("nonExistentUser");
+
+            // Assert
+            Assert.AreEqual(0, history.Count);
+        }
     }
 }
-

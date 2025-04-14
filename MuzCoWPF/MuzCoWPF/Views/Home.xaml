@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="MuzCoWPF.Views.Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MuzCoWPF.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1050">
+    <UserControl.Resources>
+        <!-- Подключение шрифта -->
+        <FontFamily x:Key="CustomFont">/MuzCoWPF;component/Fonts/Lobster/#Lobster</FontFamily>
+    </UserControl.Resources>
+    <Grid>
+
+        <!-- Закругленные углы окна -->
+        <Border Background="#F0F0F0" CornerRadius="20" Margin="10">
+            <Grid>
+
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="428"/>
+                    <ColumnDefinition Width="622"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Логотип и текст слева -->
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="600" Grid.Column="0" Grid.Row="0">
+
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Image Source="/Image/logoMuzCo.png"   VerticalAlignment="Top" Width="63" Height="63" Stretch="Uniform" Margin="182,40,182,46"/>
+
+                        <TextBlock Text="ТВОЯ ПІЦА" FontFamily="{StaticResource CustomFont}" FontSize="75" TextWrapping="Wrap" TextAlignment="Center"/>
+                        <TextBlock Text="-" FontFamily="{StaticResource CustomFont}" FontSize="85" TextAlignment="Center"/>
+                        <TextBlock Text="ТВІЙ СМАК" FontFamily="{StaticResource CustomFont}" FontSize="75" TextWrapping="Wrap" TextAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Изображение справа и кнопка -->
+                <Grid Grid.Column="1">
+                    <Image Source="/Image/MaskGroup.png" Margin="-18,20,18,21" />
+
+                    <Button Command="{Binding PizzeriaCommand}" Background="#F0F0F0" BorderBrush="#FFBABABA" Height="113" Margin="0,429,459,38" VerticalAlignment="Center" HorizontalAlignment="Center" Name="orderButton">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" CornerRadius="20">
+                                    <Grid>
+                                        <Image Source="/Image/menu.png" Width="165" Height="106" Margin="-2,3,-2,2"/>
+                                        <Border Background="#fff" CornerRadius="100" Width="21px" Height="21px" Margin="130,10,10,80">
+                                            <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Width="12" Height="12">
+                                                <Path Fill="White" Data="M0.828195 10.6724C1.32341 10.1772 2.55212 9.92694 3.66803 9.80146C5.10563 9.63728 6.56526 9.69935 7.97082 10.0384C9.02467 10.2927 10.2013 10.7018 10.8394 11.3398M10.8394 11.3398C10.2013 10.7018 9.79152 9.52449 9.5379 8.47131C9.19953 7.06508 9.13746 5.60545 9.30031 4.16918C9.42645 3.0526 9.67806 1.82257 10.1719 1.32868M10.8394 11.3398L0.828194 1.32868L10.8394 11.3398Z"/>
+                                                <Path Stroke="#FD573E" StrokeThickness="1.7" Data="M0.828195 10.6724C1.32341 10.1772 2.55212 9.92694 3.66803 9.80146C5.10563 9.63728 6.56526 9.69935 7.97082 10.0384C9.02467 10.2927 10.2013 10.7018 10.8394 11.3398M10.8394 11.3398C10.2013 10.7018 9.79152 9.52449 9.5379 8.47131C9.19953 7.06508 9.13746 5.60545 9.30031 4.16918C9.42645 3.0526 9.67806 1.82257 10.1719 1.32868M10.8394 11.3398L0.828195 1.32868"/>
+                                            </Canvas>
+                                        </Border>
+                                        <TextBlock Text="Зробити замовлення" Foreground="White" FontSize="12" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="Bold" Margin="0,93,0,0"/>
+                                    </Grid>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>
