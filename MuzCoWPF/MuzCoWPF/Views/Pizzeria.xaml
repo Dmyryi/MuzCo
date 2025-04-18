@@ -84,7 +84,7 @@
         Background="#FD573E" BorderBrush="Transparent" Margin="0,10,0,0"
         ToolTip="Додати до замовлення"
         Command="{Binding DataContext.AddToCartCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
-        CommandParameter="{Binding}">
+                        CommandParameter="{Binding}">
                                     <TextBlock Text="➤" FontSize="16" Foreground="White"/>
                                 </Button>
                             </StackPanel>

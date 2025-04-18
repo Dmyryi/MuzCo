@@ -1,65 +1,49 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.ObjectModel;
 using System.IO;
-using MuzCoWPF.Model;
+
 using System.Diagnostics;
 using System.Windows.Input;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using MuzCoWPF.Utilities;
 using MuzCoWPF.Views;
-
+using MuzCo;
+using MuzCoWPF.Utilities;
+using System.Windows;
 namespace MuzCoWPF.ViewModel
 {
-   public class PizzeriaVM
+    public class PizzeriaVM:ViewModelBase
     {
-        public ObservableCollection<Pizza> Pizzas { get; set; }
-        public ObservableCollection<Pizza> Cart { get; set; } = new();
+        private readonly MuzCo.Pizzeria _pizzeria;
 
-        public ICommand AddToCartCommand { get; }
+        public ObservableCollection<Pizza> Pizzas { get; set; }
+        public ObservableCollection<Pizza> Cart { get; set; }
         public ICommand OpenCartCommand { get; }
+        public ICommand AddToCartCommand { get; }
+
         public PizzeriaVM()
         {
-            Debug.WriteLine("Переключение на PizzeriaVM");
-            Pizzas = LoadPizzas();
-            AddToCartCommand = new RelayCommand(AddToCart);
-            OpenCartCommand = new RelayCommand(OpenCart);
+            _pizzeria = new MuzCo.Pizzeria();
+            _pizzeria.LoadData("C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Resources\\data.json");
+            OpenCartCommand = new RelayCommand(_ => OpenCart());
+            Pizzas = new ObservableCollection<Pizza>(_pizzeria.Pizzas);
+            Cart = new ObservableCollection<Pizza>();
+
+            AddToCartCommand = new RelayCommand(p => AddToCart(p as Pizza));
         }
 
-        private ObservableCollection<Pizza> LoadPizzas()
+        private void AddToCart(Pizza pizza)
         {
-            string json = File.ReadAllText("C:\\Users\\muzal\\source\\repos\\MuzCoWPF\\MuzCoWPF\\Resources\\data.json");  // Замените на путь к вашему файлу
-            var pizzas = JsonConvert.DeserializeObject<List<Pizza>>(json);
-            return new ObservableCollection<Pizza>(pizzas);
+            if (pizza == null) return;
+            Cart.Add(pizza);
+            MessageBox.Show($"✅ Додано в кошик: {pizza.Name}");
         }
-        public int CartCount => Cart.Count;
 
-        private void AddToCart(object parameter)
+        private void OpenCart()
         {
-            Debug.WriteLine("Нажата кнопка ➤");
-
-            if (parameter is Pizza pizza)
-            {
-                Debug.WriteLine($"Добавляем пиццу: {pizza.Name}");
-                Cart.Add(pizza);
-                OnPropertyChanged(nameof(Cart));
-                OnPropertyChanged(nameof(CartCount));
-            }
-            else
-            {
-                Debug.WriteLine("CommandParameter — не Pizza 😢");
-            }
+            var window = new CartWindow(Cart);
+            window.ShowDialog();
         }
-
-
-        private void OpenCart(object obj)
-        {
-            var cartWindow = new CartWindow(Cart);
-            cartWindow.ShowDialog();
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string name = null) =>
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }
-}
+    }

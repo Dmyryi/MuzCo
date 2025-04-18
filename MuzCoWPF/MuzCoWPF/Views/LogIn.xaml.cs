@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MuzCoWPF.ViewModel;
 
 namespace MuzCoWPF.Views
 {
@@ -25,9 +26,11 @@ namespace MuzCoWPF.Views
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
-
+            if (DataContext is LogInVM vm)
+                vm.Password = PasswordBox.Password;
         }
+
     }
 }

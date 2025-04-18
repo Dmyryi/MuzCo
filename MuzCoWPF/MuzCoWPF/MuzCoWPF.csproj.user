@@ -2,13 +2,13 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Views\Admin.xaml.cs">
+    <Compile Update="Views\AdminPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\CartWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Customer.xaml.cs">
+    <Compile Update="Views\CustomerPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Home.xaml.cs">

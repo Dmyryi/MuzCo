@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\muzal\source\repos\MuzCo\MuzCoWPF\MuzCoWPF\App.xaml
-132577572
+1394175318
 
-31711784385
-202850168241
-MainWindow.xaml;Styles\Button.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\Admin.xaml;Views\CartWindow.xaml;Views\Customer.xaml;Views\Home.xaml;Views\LogIn.xaml;Views\Pizzeria.xaml;Views\Register.xaml;Views\StatusOrder.xaml;
+31-1745750264
+20370345774
+MainWindow.xaml;Styles\Button.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\AdminPage.xaml;Views\CartWindow.xaml;Views\CustomerPage.xaml;Views\Home.xaml;Views\LogIn.xaml;Views\Pizzeria.xaml;Views\Register.xaml;Views\StatusOrder.xaml;
 
-False
+True
 

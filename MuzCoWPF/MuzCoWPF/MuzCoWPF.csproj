@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MuzCo\MuzCo\MuzCo.csproj" />
+    <ProjectReference Include="..\..\MuzCo\MuzCo.csproj" />
   </ItemGroup>
 
   <ItemGroup>

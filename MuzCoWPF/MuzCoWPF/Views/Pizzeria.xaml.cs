@@ -24,14 +24,15 @@ namespace MuzCoWPF.Views
         public Pizzeria()
         {
             InitializeComponent();
+            DataContext = new PizzeriaVM();
         }
 
         private void OpenCart_Click(object sender, RoutedEventArgs e)
         {
             if (DataContext is PizzeriaVM vm)
             {
-                var window = new CartWindow(vm.Cart);
-                window.ShowDialog();
+                //var window = new CartWindow(vm.Cart);
+                //window.ShowDialog();
             }
         }
 

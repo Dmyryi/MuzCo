@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Windows.Controls;
-using MuzCoWPF.Model;
+
 using System.IO;
 
 namespace MuzCoWPF.Services

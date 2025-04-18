@@ -1,12 +1,6 @@
 [
   {
     "Name": "Italiano",
-    "Price": 2000.0,
-    "Image": null,
-    "Favourite": false
-  },
-  {
-    "Name": "Italiano",
     "Price": 200.0,
     "Image": null,
     "Favourite": false
@@ -18,8 +12,20 @@
     "Favourite": false
   },
   {
-    "Name": "Хуй вам в рот",
-    "Price": 100.0,
+    "Name": "Bir-Burger",
+    "Price": 230.0,
+    "Image": null,
+    "Favourite": false
+  },
+  {
+    "Name": "Myslyvska",
+    "Price": 130.0,
+    "Image": null,
+    "Favourite": false
+  },
+  {
+    "Name": "4 Cheese",
+    "Price": 165.0,
     "Image": null,
     "Favourite": false
   }

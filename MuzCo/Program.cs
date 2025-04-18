@@ -14,7 +14,7 @@ class Program
         string dataFile = "data.json";
         bool isStart = true;
 
-        
+
         User.OnRegisteredIn += message => Console.WriteLine(message);
         User.OnUserLoggedIn += message => Console.WriteLine(message);
         User.OnLogInFailed += message => Console.WriteLine(message);
@@ -50,7 +50,7 @@ class Program
                     {
                         Console.Write("\n🔑 Ім'я користувача (0 - назад): ");
                         string username = Console.ReadLine();
-                        if (username == "0") break; 
+                        if (username == "0") break;
 
                         Console.Write("🔒 Пароль: ");
                         string password = Console.ReadLine();
@@ -71,7 +71,7 @@ class Program
                     {
                         Console.Write("\n🔑 Ім'я користувача (0 - назад): ");
                         string newUsername = Console.ReadLine();
-                        if (newUsername == "0") break; 
+                        if (newUsername == "0") break;
 
 
 

@@ -12,35 +12,27 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using MuzCoWPF.Model;
+
 using MuzCoWPF.ViewModel;
 
 namespace MuzCoWPF.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для CartWindow.xaml
-    /// </summary>
+  
     public partial class CartWindow : Window
     {
-        private readonly ObservableCollection<Pizza> _cart;
-        public CartWindow(ObservableCollection<Pizza> cart)
+        public CartWindow(ObservableCollection<MuzCo.Pizza> cart)
         {
             InitializeComponent();
+            var vm = new CartWindowVM(cart);
+            DataContext = vm;
 
-            DataContext = new CartWindowVM(cart);
-        }
+            // Слушаем обновление суммы
+            vm.TotalUpdated += amount =>
+            {
+                TotalAmountText.Text = $"{amount}₴";
+            };
 
-
-        private void UpdateTotal()
-        {
-            double total = _cart.Sum(p => p.Price);
-            TotalAmountText.Text = $"{total} ₴";
-        }
-
-        private void SubmitOrder_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("🎉 Замовлення оформлено!", "Успіх", MessageBoxButton.OK, MessageBoxImage.Information);
-            Close();
+            CartList.ItemsSource = vm.Cart;
         }
     }
 }

@@ -12,8 +12,8 @@
         
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <!-- Стили кнопок -->
-                <materialDesign:BundledTheme BaseTheme="Dark" PrimaryColor="DeepOrange" SecondaryColor="Lime"/>
+         
+            
 
                 <ResourceDictionary Source="/Styles/Button.xaml"/>
                 <ResourceDictionary Source="/Styles/Text.xaml"/>
@@ -24,10 +24,10 @@
                 <v:Home />
             </DataTemplate>
             <DataTemplate DataType="{x:Type vm:AdminVM}">
-                <v:Admin />
+                <v:AdminPage />
             </DataTemplate>
             <DataTemplate DataType="{x:Type vm:CustomerVM}">
-                <v:Customer />
+                <v:CustomerPage />
             </DataTemplate>
             <DataTemplate DataType="{x:Type vm:PizzeriaVM}">
                 <v:Pizzeria />

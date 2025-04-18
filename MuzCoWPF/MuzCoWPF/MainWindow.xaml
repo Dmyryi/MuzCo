@@ -14,12 +14,12 @@
         <vm:NavigationVM/>
     </Window.DataContext>
     <Window.Resources>
-        <!-- Подключение шрифта -->
+      
         <FontFamily x:Key="CustomFont">/MuzCoWPF;component/Fonts/Lobster/#Lobster</FontFamily>
     </Window.Resources>
 
     <Grid>
 
-        <ContentControl Content="{Binding CurrentView}" />
+        <ContentControl x:Name="MainContent" Content="{Binding CurrentView}" />
     </Grid>
 </Window>

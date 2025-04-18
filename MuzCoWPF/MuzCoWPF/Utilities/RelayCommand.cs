@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace MuzCoWPF.Utilities
 {
-    class RelayCommand:ICommand
+   public class RelayCommand:ICommand
     {
 
         private readonly Action<object> _execute;

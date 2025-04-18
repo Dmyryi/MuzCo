@@ -9,7 +9,7 @@ namespace MuzCo
 {
     public class Pizzeria : ICreateOrder
     {
-        private List<Pizza> pizzas = new List<Pizza>();
+        public List<Pizza> Pizzas = new List<Pizza>();
   
         private string ordersFile = "orders.json";
         public static event Action<string> UserMenu;
@@ -28,13 +28,8 @@ namespace MuzCo
                 }
 
                 string jsonData = File.ReadAllText(filePath);
-                pizzas = JsonConvert.DeserializeObject<List<Pizza>>(jsonData);
-           
-                UserMenu.Invoke("\nМеню піц: ");
-                foreach (var pizza in pizzas)
-                {
-                                       UserMenu.Invoke($"- {pizza.Name} | 💰 {pizza.Price} ₴ |");
-                }
+                Pizzas = JsonConvert.DeserializeObject<List<Pizza>>(jsonData);
+          
             }
             catch (Exception ex)
             {
@@ -53,7 +48,7 @@ namespace MuzCo
             while (true)
             {
                 UserMenu.Invoke("🍕 Введіть номер піци (або 0 для завершення): ");
-                if (!int.TryParse(Console.ReadLine(), out int choice) || choice < 0 || choice > pizzas.Count)
+                if (!int.TryParse(Console.ReadLine(), out int choice) || choice < 0 || choice > Pizzas.Count)
                 {
                     UserMenu.Invoke("❌ Некоректне введення. Спробуйте ще раз.");
                     continue;
@@ -61,7 +56,7 @@ namespace MuzCo
 
                 if (choice == 0) break;
 
-                Pizza selectedPizza = pizzas[choice - 1];
+                Pizza selectedPizza = Pizzas[choice - 1];
 
                 UserMenu.Invoke($"🔢 Скільки {selectedPizza.Name} ви хочете замовити? ");
                 if (!int.TryParse(Console.ReadLine(), out int quantity) || quantity <= 0)
@@ -111,7 +106,7 @@ namespace MuzCo
             await Task.Delay(30000);
             order.Status = "Готово";
             UpdateOrderInFile(order);
-            UserMenu.Invoke("✅ Статус замовлення оновлено: Готово! Можна забирати 🚀");
+            UserMenu.Invoke("✅ Статус замовлення  оновлено: Готово! Можна забирати 🚀");
         }
 
         private void UpdateOrderInFile(Order updatedOrder)

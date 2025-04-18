@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "9J7nOaFuB84=",
-  "success": false,
+  "dgSpecHash": "bKRMNfr/Hyg=",
+  "success": true,
   "projectFilePath": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muzal\\.nuget\\packages\\materialdesigncolors\\5.2.1\\materialdesigncolors.5.2.1.nupkg.sha512",
@@ -9,15 +9,5 @@
     "C:\\Users\\muzal\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
     "C:\\Users\\muzal\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Не удалось найти проект \"C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\MuzCo\\MuzCo.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
-      "libraryId": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\MuzCo\\MuzCo.csproj",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

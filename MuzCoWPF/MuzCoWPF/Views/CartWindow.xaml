@@ -23,7 +23,7 @@
                 <TextBlock x:Name="TotalAmountText" FontSize="14"/>
             </StackPanel>
 
-            <Button Content="Оформити замовлення" Margin="0,20,0,0" Height="40" Background="#FD573E" Foreground="White" Click="SubmitOrder_Click"/>
+            <Button Content="Оформити замовлення" Margin="0,20,0,0" Height="40" Background="#FD573E" Foreground="White"/>
         </StackPanel>
     </Grid>
 </Window>

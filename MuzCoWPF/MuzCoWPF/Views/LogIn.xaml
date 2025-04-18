@@ -44,15 +44,15 @@
                            Margin="0,0,0,25" />
 
                 <Border Background="Black" CornerRadius="20,20,20,20" Height="40" Margin="0,0,0,30">
-                    <TextBlock Text="Ім'я" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
+                    <TextBlock Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
                 </Border>
 
                 <Border Background="Black" CornerRadius="20,20,20,20" Height="40" Margin="0,0,0,30">
-                    <TextBlock Text="Пароль" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
+                    <PasswordBox x:Name="PasswordBox" PasswordChanged="PasswordBox_PasswordChanged"  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
                 </Border>
 
                 <Button Content="Увійти"
-              
+              Command="{Binding LogInCommand}"
                         Background="#FFFC5C45"
                         Foreground="White"
                         FontSize="16"

@@ -3,56 +3,136 @@
   "WorkspaceRootPath": "C:\\Users\\muzal\\source\\repos\\MuzCo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\adminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\customerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\pizzeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\pizzeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\pizzeria.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\pizzeria.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\viewmodel\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\viewmodel\\customervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\viewmodel\\navigationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\viewmodel\\navigationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\viewmodel\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\viewmodel\\ordervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\currentsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\currentsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\viewmodel\\cartwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\viewmodel\\cartwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\cartwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\cartwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\viewmodel\\pizzeriavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\viewmodel\\pizzeriavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\utilities\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\utilities\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\utilities\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\cartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\cartwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\pizzeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\pizzeria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90372410-3108-40CB-BD26-30994BB4413E}|TestProject1\\TestMuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\testproject1\\testmuzco.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90372410-3108-40CB-BD26-30994BB4413E}|TestProject1\\TestMuzCo.csproj|solutionrelative:testproject1\\testmuzco.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\pizzeria.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\pizzeria.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\muzcowpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\muzcowpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\viewmodel\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\viewmodel\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\customerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\customerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\icreateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\icreateorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\ifeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\ifeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90372410-3108-40CB-BD26-30994BB4413E}|TestProject1\\TestMuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\testproject1\\muzcotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90372410-3108-40CB-BD26-30994BB4413E}|TestProject1\\TestMuzCo.csproj|solutionrelative:testproject1\\muzcotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,7 +143,16 @@
       "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\muzal\\source\\repos\\muzcowpf\\muzcowpf\\viewmodel\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzco\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFBAFF68-2A62-44BA-91F9-FA6BA14E8467}|MuzCo\\MuzCo.csproj|solutionrelative:muzco\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\views\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|c:\\users\\muzal\\source\\repos\\muzco\\muzcowpf\\muzcowpf\\helpers\\navigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1961884D-3014-342B-D49F-2AF4C55D3346}|MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj|solutionrelative:muzcowpf\\muzcowpf\\helpers\\navigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 311,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,204 +171,457 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 701,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LogInVM.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
-              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
-              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T17:15:09.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Admin.cs",
-              "RelativeDocumentMoniker": "MuzCo\\Admin.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Admin.cs",
-              "RelativeToolTip": "MuzCo\\Admin.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:41:36.532Z"
+              "DocumentIndex": 4,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Home.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\Home.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Home.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T20:50:38.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pizzeria.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T18:46:56.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogIn.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T18:36:24.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T18:00:48.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "NavigationVM.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\NavigationVM.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\ViewModel\\NavigationVM.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\NavigationVM.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\ViewModel\\NavigationVM.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:50:53.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerVM.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\CustomerVM.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\ViewModel\\CustomerVM.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\CustomerVM.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\ViewModel\\CustomerVM.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:47:11.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:39:29.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\MainWindow.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T17:58:38.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Customer.cs",
               "RelativeDocumentMoniker": "MuzCo\\Customer.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Customer.cs",
               "RelativeToolTip": "MuzCo\\Customer.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAYwIoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAwIgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:41:49.303Z"
+              "WhenOpened": "2025-04-14T18:30:34.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\User.cs",
-              "RelativeDocumentMoniker": "MuzCo\\User.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\User.cs",
-              "RelativeToolTip": "MuzCo\\User.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAQwH4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:41:19.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ICreateOrder.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\ICreateOrder.cs",
-              "RelativeDocumentMoniker": "MuzCo\\ICreateOrder.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\ICreateOrder.cs",
-              "RelativeToolTip": "MuzCo\\ICreateOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:47:31.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Feedback.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Feedback.cs",
-              "RelativeDocumentMoniker": "MuzCo\\Feedback.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Feedback.cs",
-              "RelativeToolTip": "MuzCo\\Feedback.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAUwEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T18:33:52.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pizza.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Pizza.cs",
-              "RelativeDocumentMoniker": "MuzCo\\Pizza.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Pizza.cs",
-              "RelativeToolTip": "MuzCo\\Pizza.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:16:11.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Order.cs",
               "RelativeDocumentMoniker": "MuzCo\\Order.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Order.cs",
               "RelativeToolTip": "MuzCo\\Order.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwCMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:42:17.419Z"
+              "WhenOpened": "2025-04-14T18:30:20.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClassDiagram1.cd",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\ClassDiagram1.cd",
-              "RelativeDocumentMoniker": "MuzCo\\ClassDiagram1.cd",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\ClassDiagram1.cd",
-              "RelativeToolTip": "MuzCo\\ClassDiagram1.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-04-10T22:09:15.775Z"
+              "DocumentIndex": 12,
+              "Title": "CartWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:04:15.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "CurrentSession.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\CurrentSession.cs",
+              "RelativeDocumentMoniker": "MuzCo\\CurrentSession.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\CurrentSession.cs",
+              "RelativeToolTip": "MuzCo\\CurrentSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:44:10.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderVM.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\OrderVM.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\ViewModel\\OrderVM.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\OrderVM.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\ViewModel\\OrderVM.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:51:49.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PizzeriaVM.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\PizzeriaVM.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\ViewModel\\PizzeriaVM.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\PizzeriaVM.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\ViewModel\\PizzeriaVM.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:13:09.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartWindowVM.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\CartWindowVM.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\ViewModel\\CartWindowVM.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\CartWindowVM.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\ViewModel\\CartWindowVM.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA5wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T08:30:35.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\App.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\App.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\App.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T18:52:50.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Utilities\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Utilities\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Utilities\\RelayCommand.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Utilities\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:51:49.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\CartWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T18:38:55.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Pizzeria.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Pizzeria.cs",
               "RelativeDocumentMoniker": "MuzCo\\Pizzeria.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Pizzeria.cs",
               "RelativeToolTip": "MuzCo\\Pizzeria.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAcwIsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAvwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:15:24.56Z"
+              "WhenOpened": "2025-04-14T18:13:48.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Utilities\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Utilities\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Utilities\\ViewModelBase.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Utilities\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:51:40.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Register.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\Register.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Register.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T20:53:19.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Services\\OrderService.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:52:38.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Pizzeria.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\Pizzeria.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAArwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:38:46.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TestMuzCo.csproj",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\TestProject1\\TestMuzCo.csproj",
+              "RelativeDocumentMoniker": "TestProject1\\TestMuzCo.csproj",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\TestProject1\\TestMuzCo.csproj",
+              "RelativeToolTip": "TestProject1\\TestMuzCo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T18:48:10.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LogIn.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\LogIn.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:40:08.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\CustomerPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwBQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:39:05.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LogInVM.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\ViewModel\\LogInVM.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA0wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:47:50.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MuzCoWPF.csproj",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\MuzCoWPF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T17:45:17.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Program.cs",
               "RelativeDocumentMoniker": "MuzCo\\Program.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Program.cs",
               "RelativeToolTip": "MuzCo\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAgwGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDIAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:11:04.088Z"
+              "WhenOpened": "2025-04-14T18:29:22.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 31,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Feedback.cs",
+              "RelativeDocumentMoniker": "MuzCo\\Feedback.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Feedback.cs",
+              "RelativeToolTip": "MuzCo\\Feedback.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:30:28.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Pizza.cs",
+              "RelativeDocumentMoniker": "MuzCo\\Pizza.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Pizza.cs",
+              "RelativeToolTip": "MuzCo\\Pizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:30:19.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "IFeedback.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\IFeedback.cs",
               "RelativeDocumentMoniker": "MuzCo\\IFeedback.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\IFeedback.cs",
               "RelativeToolTip": "MuzCo\\IFeedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T16:56:45.635Z"
+              "WhenOpened": "2025-04-14T18:30:27.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IOrder.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\IOrder.cs",
-              "RelativeDocumentMoniker": "MuzCo\\IOrder.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\IOrder.cs",
-              "RelativeToolTip": "MuzCo\\IOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Admin.cs",
+              "RelativeDocumentMoniker": "MuzCo\\Admin.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\Admin.cs",
+              "RelativeToolTip": "MuzCo\\Admin.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T08:31:45.059Z"
+              "WhenOpened": "2025-04-14T18:03:13.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MuzCoTest.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\TestProject1\\MuzCoTest.cs",
-              "RelativeDocumentMoniker": "TestProject1\\MuzCoTest.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\TestProject1\\MuzCoTest.cs",
-              "RelativeToolTip": "TestProject1\\MuzCoTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T09:29:49.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\UserDto.cs",
-              "RelativeDocumentMoniker": "MuzCo\\UserDto.cs",
-              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\UserDto.cs",
-              "RelativeToolTip": "MuzCo\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T09:49:58.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 33,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\UserRole.cs",
               "RelativeDocumentMoniker": "MuzCo\\UserRole.cs",
               "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\UserRole.cs",
               "RelativeToolTip": "MuzCo\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T08:16:05.352Z"
+              "WhenOpened": "2025-04-14T18:30:10.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\UserDto.cs",
+              "RelativeDocumentMoniker": "MuzCo\\UserDto.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\UserDto.cs",
+              "RelativeToolTip": "MuzCo\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:30:09.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\User.cs",
+              "RelativeDocumentMoniker": "MuzCo\\User.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCo\\User.cs",
+              "RelativeToolTip": "MuzCo\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwv4EAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:10:22.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Views\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-14T18:00:41.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Navigator.cs",
+              "DocumentMoniker": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Helpers\\Navigator.cs",
+              "RelativeDocumentMoniker": "MuzCoWPF\\MuzCoWPF\\Helpers\\Navigator.cs",
+              "ToolTip": "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Helpers\\Navigator.cs",
+              "RelativeToolTip": "MuzCoWPF\\MuzCoWPF\\Helpers\\Navigator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAjwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:57:01.398Z"
             }
           ]
         }
