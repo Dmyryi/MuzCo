@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="MuzCoWPF.Views.ManageOrders"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MuzCoWPF.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="20" Background="#AA000000">
+                <TextBlock Text="🗑️ Список замовлень" FontSize="24" Foreground="#FFF" FontWeight="Bold" Margin="0,0,0,10"/>
+
+
+                <ItemsControl ItemsSource="{Binding Orders}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Margin="0,0,0,10" Background="#FFF3F3F3" Padding="10" CornerRadius="10">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding UserId}" FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding OrderDate}" />
+                                    <TextBlock Text="{Binding TotalPrice}" />
+                                    <Button Content="Видалити" 
+                                    Command="{Binding DataContext.DeleteOrderCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    CommandParameter="{Binding}" 
+                                    Background="Red" Foreground="White" Margin="0,5,0,0"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

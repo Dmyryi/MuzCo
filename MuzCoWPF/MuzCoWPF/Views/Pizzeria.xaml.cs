@@ -24,7 +24,8 @@ namespace MuzCoWPF.Views
         public Pizzeria()
         {
             InitializeComponent();
-            DataContext = new PizzeriaVM();
+            DataContext = new PizzeriaVM(NavigationVM.Instance);
+
         }
 
         private void OpenCart_Click(object sender, RoutedEventArgs e)

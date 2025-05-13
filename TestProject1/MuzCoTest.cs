@@ -9,7 +9,7 @@ namespace TestMuzCo
         public void User_ConstructorCustomer_ShouldSetProperties()
         {
             // Arrange & Act
-            var user = new Customer("e0f1207c-fdc2-4e08-bd86-f54075f60016", "Dom", "qwerty");
+            var user = new Customer("e0f1207c-fdc2-4e08-bd86-f54075f60016", "Dom", "qwerty", UserRole.Customer);
 
             // Assert
             Assert.AreEqual("e0f1207c-fdc2-4e08-bd86-f54075f60016", user.Id);
@@ -22,7 +22,7 @@ namespace TestMuzCo
         public void User_ConstructorAdmin_ShouldSetProperties()
         {
             // Arrange & Act
-            var user = new Admin("e0f1207c-fdc2-4e08-bd86-f54075f60016", "AdminUser", "adminpass");
+            var user = new Admin("e0f1207c-fdc2-4e08-bd86-f54075f60016", "AdminUser", "adminpass", UserRole.Admin);
 
             // Assert
             Assert.AreEqual("e0f1207c-fdc2-4e08-bd86-f54075f60016", user.Id);
@@ -127,10 +127,10 @@ namespace TestMuzCo
             // Arrange
             var order = new Order("user456", new List<string> { "Margherita" }, 25.99, "Готується");
 
-            // Act
-            var history = order.GetOrderHistory("nonExistentUser");
+            //Act
+           var history = Order.GetOrderHistory("nonExistentUser");
 
-            // Assert
+            //Assert
             Assert.AreEqual(0, history.Count);
         }
     }

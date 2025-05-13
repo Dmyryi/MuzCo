@@ -20,10 +20,10 @@ namespace MuzCoWPF.ViewModel
         Feedback
     }
 
-    class CustomerVM : ViewModelBase
+   public class CustomerVM : ViewModelBase
     {
-        public string Username => $"Вітаємо, {CurrentSession.UserName}!";
 
+        private readonly NavigationVM _nav;
         public ObservableCollection<OrderVM> Orders { get; }
 
         private ProfileSection _currentSection = ProfileSection.None;
@@ -34,20 +34,43 @@ namespace MuzCoWPF.ViewModel
         }
 
         public ICommand ShowOrdersCommand { get; }
-        public ICommand ShowFavoritesCommand { get; }
+       
         public ICommand ShowFeedbackCommand { get; }
+        public ICommand PizzeriaCommand { get; }
+        public ICommand ProfileCommand { get; }
+        public Customer customer { get; set; }
 
-        public CustomerVM()
+        public ICommand LogoutCommand { get; }
+        private ViewModelBase _currentSubView;
+        public ViewModelBase CurrentSubView
         {
-            ShowOrdersCommand = new RelayCommand(_ => CurrentSection = ProfileSection.Orders);
-            ShowFavoritesCommand = new RelayCommand(_ => CurrentSection = ProfileSection.Favorites);
-            ShowFeedbackCommand = new RelayCommand(_ => CurrentSection = ProfileSection.Feedback);
-
-            // Заказы предварительно загружаем
-            Orders = new ObservableCollection<OrderVM>(
-                Order.GetOrderHistory(CurrentSession.UserId)
-                    .Select(o => new OrderVM(o))
-            );
+            get => _currentSubView;
+            set
+            {
+                _currentSubView = value;
+                OnPropertyChanged();
+            }
         }
+
+      
+        public CustomerVM(NavigationVM navigation, Customer _customer)
+        {
+            _nav = navigation;
+            PizzeriaCommand = NavigationVM.Instance.PizzeriaCommand;
+            ShowOrdersCommand = new RelayCommand(_ => CurrentSubView = new OrderHistoryVM(_customer.Id));
+            ProfileCommand = new RelayCommand(_=>CurrentSubView = new ProfileVM(_customer));
+            ShowFeedbackCommand = new RelayCommand(_ => CurrentSubView = new FeedbackVM(_customer.Id));
+            CurrentSubView = new ProfileVM(_customer);
+            LogoutCommand = new RelayCommand(_ => Logout());
+            customer = _customer;
+           
+        }
+
+        private void Logout()
+        {
+            NavigationVM.Instance.CurrentUser = null;
+            NavigationVM.Instance.CurrentView = new LogInVM(_nav);
+        }
+
     }
 }

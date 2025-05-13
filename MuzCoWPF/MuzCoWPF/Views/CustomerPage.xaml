@@ -4,54 +4,68 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MuzCoWPF.Views"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+
+             xmlns:vm ="clr-namespace:MuzCoWPF.ViewModel" d:DataContext="{d:DesignInstance Type=vm:CustomerVM}"
+             mc:Ignorable="d" d:DesignWidth="1050" Height="650">
+
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1004*"/>
+            <ColumnDefinition Width="47*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Clip>
+            <RectangleGeometry Rect="0,0,1050,650" RadiusX="30" RadiusY="30"/>
+        </Grid.Clip>
         <!-- 📸 Фон -->
+
         <Image Source="/Image/BackgroundProfile.png"
-               Stretch="Fill"
-               Panel.ZIndex="0" />
+           Stretch="Fill"
+           Panel.ZIndex="0"
+           ClipToBounds="True" Grid.ColumnSpan="2"/>
+
 
         <!-- Основной макет -->
-        <Grid Margin="60">
+        <Grid Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
             <!-- 👋 Левая карточка -->
-            <Border Background="#E58F8F8F"
-                    CornerRadius="25"
-                    Padding="30"
-                    Width="300"
-                    VerticalAlignment="Center"
-                   >
-                <StackPanel HorizontalAlignment="Center" Height="219">
-                    <TextBlock Text="Вітаємо, Даніл!"
-                               FontSize="22"
-                               FontWeight="Bold"
-                               HorizontalAlignment="Center"
-                               Margin="0,0,0,20"
-                               Foreground="White" />
-                    <Image Source="/Image/avatar.png"
-                           Width="110"
-                           Height="169"
-                           Stretch="Uniform"
-                           />
+            <ContentControl Content="{Binding CurrentSubView}" Margin="225,0,525,0" Width="300" VerticalAlignment="Center">
+                <ContentControl.Resources>
+                    <DataTemplate DataType="{x:Type vm:ProfileVM}">
+                        <local:ProfilePage />
+                    </DataTemplate>
 
-                    <!-- Аватар -->
-                </StackPanel>
-            </Border>
+
+                    <DataTemplate DataType="{x:Type vm:OrderHistoryVM}">
+                        <local:HistoryOrder />
+                    </DataTemplate>
+
+
+
+
+                    <DataTemplate DataType="{x:Type vm:FeedbackVM}">
+                        <local:FeedbackPage/>
+                    </DataTemplate>
+                </ContentControl.Resources>
+            </ContentControl>
+
 
             <!-- Кнопки справа -->
-            <StackPanel Grid.Column="1"
-                        HorizontalAlignment="Right"
-                        VerticalAlignment="Center"
-                        Margin="60,0,0,0"
-                        Width="250"
+            <StackPanel
+                        HorizontalAlignment="Left"
+                      VerticalAlignment="Center"
+                        Margin="606,0,0,0"
+                        Width="324" Height="294"
                        >
 
-                <Button Content="Історія замовлень"
+                <Button Content="Профіль"
                         Height="50"
                         FontSize="16"
                         FontWeight="SemiBold"
@@ -60,20 +74,23 @@
                         BorderBrush="Transparent"
                         BorderThickness="0"
                         Cursor="Hand"
-                        Margin="0,0,0,10"
+                        Command="{Binding ProfileCommand}"
+                        Margin="0,0,0,10" HorizontalAlignment="Center" Width="229"
+                       />
+
+                <Button x:Name="GetOrderHistory" Content="Історія замовлень"
+                        Height="50"
+                        FontSize="16"
+                        FontWeight="SemiBold"
+                        Background="#E58F8F8F"
+                        Foreground="White"
+                        BorderBrush="Transparent"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                         Command="{Binding ShowOrdersCommand}"
+                        Margin="0,0,0,10" HorizontalAlignment="Center" Width="232"
                  />
 
-                <Button Content="Улюблена піца"
-                        Height="50"
-                        FontSize="16"
-                        FontWeight="SemiBold"
-                        Background="#E58F8F8F"
-                        Foreground="White"
-                        BorderBrush="Transparent"
-                        BorderThickness="0"
-                        Cursor="Hand"
-                        Margin="0,0,0,10"
-                       />
 
                 <Button Content="Відгуки"
                         Height="50"
@@ -83,9 +100,38 @@
                         Foreground="White"
                         BorderBrush="Transparent"
                         BorderThickness="0"
-                        Cursor="Hand"
+                        Command="{Binding ShowFeedbackCommand, Mode=OneWay}"
+                        Cursor="Hand" HorizontalAlignment="Center" Width="229"
                         />
+                <Button Content="На Головну"
+                        Command="{Binding PizzeriaCommand}"
+                        Height="50"
+                        FontSize="16"
+                        FontWeight="SemiBold"
+                        Background="#E58F8F8F"
+                        Foreground="White"
+                        BorderBrush="Transparent"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        Width="228" Margin="0,10,0,0"
+                       />
+                <Button Content="Вийти"
+        Command="{Binding LogoutCommand}"
+        Height="50"
+        FontSize="16"
+        FontWeight="SemiBold"
+        Background="#FFB23B3B"
+        Foreground="White"
+        BorderBrush="Transparent"
+        BorderThickness="0"
+        Cursor="Hand"
+        Width="228" Margin="0,10,0,0"/>
+
             </StackPanel>
+
+
         </Grid>
+
     </Grid>
+
 </UserControl>

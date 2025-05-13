@@ -1,0 +1,56 @@
+[
+  {
+    "Id": "7c1a2e66-bc02-4de3-98bc-a06f7a5985cd",
+    "UserName": "Dim",
+    "Password": "qwerty123",
+    "Role": "Customer"
+  },
+  {
+    "Id": "86a046ca-2d46-428f-93f9-d358f9fb45c2",
+    "UserName": "Domestos",
+    "Password": "admin123",
+    "Role": "Customer"
+  },
+  {
+    "Id": "2c4ecded-c3b6-4fa1-ab7a-c30c36b179c8",
+    "UserName": "log",
+    "Password": "login23",
+    "Role": "Admin"
+  },
+  {
+    "Id": "3cb67ebc-75c2-48be-92e2-ff3c0cd9094d",
+    "UserName": "Dom",
+    "Password": "qwerty12345",
+    "Role": "Customer"
+  },
+  {
+    "Id": "c23a34fa-2b7e-417a-b5e0-113273d44527",
+    "UserName": "Domest",
+    "Password": "admin1234",
+    "Role": "Customer"
+  },
+  {
+    "Id": "c23a34fa-2b7e-417a-b5e0-113273d44527",
+    "UserName": "Domesta",
+    "Password": "admin1234",
+    "Role": "Admin"
+  },
+  {
+    "Id": "13c9f30a-9f86-4b7e-b699-8061007f9e58",
+    "UserName": "Dorator",
+    "Password": "qwerty123",
+    "Role": "Customer"
+  },
+  {
+    "Id": "f14209a6-d4a0-4648-b2d9-1a4754c1e241",
+    "UserName": "Doma",
+    "Password": "qwerty123",
+    "Role": "Customer"
+  },
+  {
+    "Id": "1b4e6cce-4a99-4b0e-9356-87751ff15ab7",
+    "UserName": "Qwerty",
+    "Password": "qwerty123",
+    "Role": "Customer"
+  }
+]

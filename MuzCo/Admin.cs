@@ -17,7 +17,7 @@ namespace MuzCo
 
         public static event Action<string> OnAdmin;
 
-        public Admin(string id, string userName, string password) : base(id, userName, password, UserRole.Customer)
+        public Admin(string id, string userName, string password, UserRole role): base(id, userName, password, role)
         {
 
             allOrders = new List<Order>();
@@ -92,12 +92,16 @@ namespace MuzCo
             {
                 OnAdmin?.Invoke("Некоректна ціна, спробуйте ще раз.");
             }
+            ProductType Type;
+            while (!ProductType.TryParse(Console.ReadLine(), out Type) || pizzaPrice <= 0)
+            {
+                OnAdmin?.Invoke("Некоректний вибір!");
+            }
 
-         
             allPizzas = LoadPizzasFromJson();
 
           
-            Pizza newPizza = new Pizza(pizzaName, pizzaPrice);
+            Pizza newPizza = new Pizza(pizzaName, pizzaPrice, Type);
             allPizzas.Add(newPizza);
 
 

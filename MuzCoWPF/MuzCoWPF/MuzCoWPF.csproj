@@ -10,11 +10,19 @@
 
   <ItemGroup>
     <None Remove="Fonts\Lobster\Lobster-Regular.ttf" />
+    <None Remove="Image\Arrow 1.svg" />
     <None Remove="Image\Arrow.png" />
+    <None Remove="Image\avatar.png" />
+    <None Remove="Image\BackgroundAuthorization.png" />
+    <None Remove="Image\BackgroundProfile.png" />
+    <None Remove="Image\BackgroundStatus.png" />
     <None Remove="Image\logoMuzCo.png" />
     <None Remove="Image\MaskGroup.png" />
     <None Remove="Image\menu.png" />
     <None Remove="Resources\data.json" />
+    <None Remove="Resources\orders.json" />
+    <None Remove="Resources\reviews.json" />
+    <None Remove="Resources\users.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,7 +37,22 @@
 
   <ItemGroup>
     <Resource Include="Fonts\Lobster\Lobster-Regular.ttf" />
+    <Resource Include="Image\Arrow 1.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Image\Arrow.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\avatar.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\BackgroundAuthorization.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\BackgroundProfile.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\BackgroundStatus.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Image\logoMuzCo.png">
@@ -42,6 +65,15 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\data.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\orders.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\reviews.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\users.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

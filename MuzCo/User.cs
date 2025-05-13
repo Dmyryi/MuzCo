@@ -17,7 +17,7 @@ namespace MuzCo
         public string UserName { get; private set; }
         public string Password { get; private set; }
         public UserRole UserRole { get; private set; }
-
+        
         public static event Action<string> OnUserLoggedIn;
         public static event Action<string> OnLogInFailed;
         public static event Action<string> OnRegisteredIn;
@@ -43,11 +43,11 @@ namespace MuzCo
             {
                 if (u.Role == UserRole.Admin)
                 {
-                    users.Add(new Admin(u.Id, u.UserName, u.Password));
+                    users.Add(new Admin(u.Id, u.UserName, u.Password, u.Role));
                 }
                 else
                 {
-                    users.Add(new Customer(u.Id, u.UserName, u.Password));
+                    users.Add(new Customer(u.Id, u.UserName, u.Password, u.Role));
                 }
             }
 
@@ -111,7 +111,7 @@ namespace MuzCo
                 return null;
             }
 
-            User newUserObj = new Customer(Guid.NewGuid().ToString(), newUser, newPass);
+            User newUserObj = new Customer(Guid.NewGuid().ToString(), newUser, newPass, UserRole.Customer);
             users.Add(newUserObj);
             SaveUser(users, filePath);
 
@@ -131,9 +131,9 @@ namespace MuzCo
         }
 
         private static bool IsValidPassword(string password)
-        {
+        { 
             return password.Length >= 6 &&
-                   password.Any(char.IsLetter) &&
+                   password.Any(char.IsLetter) &&  
                    password.Any(char.IsDigit) &&
                    !password.Any(char.IsWhiteSpace);
         }

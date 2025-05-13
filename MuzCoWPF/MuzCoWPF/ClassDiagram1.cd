@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MuzCoWPF.ViewModel.AddPizzaVM" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIRAAQAgAAAAgAAAAIQRAAAEAQAIAAAAAAAFAAA=</HashCode>
+      <FileName>ViewModel\AddPizzaVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.AdminVM" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAABAAgAAAACAAAAAAAAACAAAAEBAABAAAgAAAA=</HashCode>
+      <FileName>ViewModel\AdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.CustomerVM" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAgAABAAIAAAADAAAAAAIAACQAAAAAAABAAAgAAIA=</HashCode>
+      <FileName>ViewModel\CustomerVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.FeedbackVM" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\FeedbackVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.HomeVM" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\HomeVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.LogInVM" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAgAAAAAAAAIAAAQAAIAAAACAAAACCBAIAAAAAAAA=</HashCode>
+      <FileName>ViewModel\LogInVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.MainVM" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MainVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.ManageOrdersVM" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAIAAABAIA=</HashCode>
+      <FileName>ViewModel\ManageOrdersVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.NavigationVM" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAgAACAIAAACCaAAEAAQACBAQBABCAQAAAgAAAAAA=</HashCode>
+      <FileName>ViewModel\NavigationVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.OrderHistoryVM" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\OrderHistoryVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.OrderVM" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGAAAAAAAAAAAAAAAAAAAAQAEBAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\OrderVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.PizzeriaVM" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EYgAJEABCAAACABBBAQAAAEAAAAAQAEAQAAgoAAAISE=</HashCode>
+      <FileName>ViewModel\PizzeriaVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.ProfileAdminVM" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ViewModel\ProfileAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.ProfileVM" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ProfileVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.RegisterVM" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\RegisterVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.ViewModel.StatusOrderVM" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBEgAAGAYAAAQAAAAAAAAAAJAAAAAAAAAAAAiDEAAA=</HashCode>
+      <FileName>ViewModel\StatusOrderVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuzCoWPF.Views.HistoryOrder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\HistoryOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.ToastWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ToastWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.StatusOrder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\StatusOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.Register" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Register.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.ProfilePage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ProfilePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.ProfileAdminPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ProfileAdminPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.Pizzeria" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Pizzeria.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.ManageOrders" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ManageOrders.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.LogIn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\LogIn.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.LeaveFeedbackWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAACABAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Views\LeaveFeedbackWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.Home" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Home.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.FeedbackPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\FeedbackPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.CustomerPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\CustomerPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.CartWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Views\CartWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.Views.AddPizza" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\AddPizza.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAQAAAAACAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MuzCoWPF.App" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="11.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="MuzCoWPF.Utilities.ViewModelBase" Collapsed="true">
+    <Position X="14.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="MuzCoWPF.ViewModel.AdminSection" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>ViewModel\AdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MuzCoWPF.ViewModel.ProfileSection" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>ViewModel\CustomerVM.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

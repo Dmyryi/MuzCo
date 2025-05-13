@@ -10,7 +10,7 @@ class Program
     static void Main(string[] args)
     {
         Console.OutputEncoding = Encoding.UTF8;
-        string usersFile = "users.json";
+        string usersFile = "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Resources\\users.json";
         string dataFile = "data.json";
         bool isStart = true;
 

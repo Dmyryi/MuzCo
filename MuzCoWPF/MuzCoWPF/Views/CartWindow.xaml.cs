@@ -20,19 +20,16 @@ namespace MuzCoWPF.Views
   
     public partial class CartWindow : Window
     {
-        public CartWindow(ObservableCollection<MuzCo.Pizza> cart)
+        public CartWindow()
         {
             InitializeComponent();
-            var vm = new CartWindowVM(cart);
-            DataContext = vm;
-
-            // Слушаем обновление суммы
-            vm.TotalUpdated += amount =>
-            {
-                TotalAmountText.Text = $"{amount}₴";
-            };
-
-            CartList.ItemsSource = vm.Cart;
+      
+         
         }
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

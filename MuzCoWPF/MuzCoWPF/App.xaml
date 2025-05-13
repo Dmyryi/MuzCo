@@ -12,8 +12,8 @@
         
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-         
-            
+
+                <ResourceDictionary Source="/Styles/IconResource.xaml"/>
 
                 <ResourceDictionary Source="/Styles/Button.xaml"/>
                 <ResourceDictionary Source="/Styles/Text.xaml"/>
@@ -35,9 +35,15 @@
             <DataTemplate DataType="{x:Type vm:RegisterVM}">
                 <v:Register />
             </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:LogInVM}">
+                <v:LogIn />
+            </DataTemplate>
             <DataTemplate DataType="{x:Type vm:StatusOrderVM}">
                 <v:StatusOrder />
             </DataTemplate>
+           
+
+
 
         </ResourceDictionary>
     </Application.Resources>

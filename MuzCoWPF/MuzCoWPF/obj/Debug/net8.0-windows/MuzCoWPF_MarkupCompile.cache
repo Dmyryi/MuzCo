@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\muzal\source\repos\MuzCo\MuzCoWPF\MuzCoWPF\App.xaml
-1394175318
+22385764521
 
-291501340763
+481695251565
 20370345774
-MainWindow.xaml;Styles\Button.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\AdminPage.xaml;Views\CartWindow.xaml;Views\CustomerPage.xaml;Views\Home.xaml;Views\LogIn.xaml;Views\Pizzeria.xaml;Views\Register.xaml;Views\StatusOrder.xaml;
+MainWindow.xaml;Styles\Button.xaml;Styles\IconResource.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\AddPizza.xaml;Views\AdminPage.xaml;Views\CartWindow.xaml;Views\CustomerPage.xaml;Views\FeedbackPage.xaml;Views\HistoryOrder.xaml;Views\Home.xaml;Views\LeaveFeedbackWindow.xaml;Views\LogIn.xaml;Views\ManageOrders.xaml;Views\Pizzeria.xaml;Views\ProfileAdminPage.xaml;Views\ProfilePage.xaml;Views\Register.xaml;Views\StatusOrder.xaml;Views\ToastWindow.xaml;
 
 False
 

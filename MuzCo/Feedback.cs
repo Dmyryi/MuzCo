@@ -14,7 +14,7 @@ namespace MuzCo
         public string TextMessage { get; set; }
         public DateTime ReviewDate { get; set; }
 
-        private string reviewFile = "reviews.json";
+        private string reviewFile = "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Resources\\reviews.json";
         public static event Action<string> OnReviewsPlaced;
 
         public Feedback()
@@ -24,10 +24,10 @@ namespace MuzCo
 
         public Feedback(string orderId, string userId, string textMessage, DateTime reviewDate)
         {
-            if (string.IsNullOrWhiteSpace(textMessage))
-            {
-                throw new ArgumentException("TextMessage cannot be empty.", nameof(textMessage));
-            }
+            //if (string.IsNullOrWhiteSpace(textMessage))
+            //{
+            //    throw new ArgumentException("TextMessage cannot be empty.", nameof(textMessage));
+            //}
             this.OrderId = orderId;
             this.UserId = userId;
             this.TextMessage = textMessage;

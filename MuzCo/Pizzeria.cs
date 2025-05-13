@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MuzCo
 {
@@ -11,11 +12,12 @@ namespace MuzCo
     {
         public List<Pizza> Pizzas = new List<Pizza>();
   
-        private string ordersFile = "orders.json";
+        private string ordersFile = "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Resources\\orders.json";
         public static event Action<string> UserMenu;
+        public static event Action<string, Order>? OnStatusUpdated;
 
-      
-        
+
+
 
         public void LoadData(string filePath)
         {
@@ -90,24 +92,27 @@ namespace MuzCo
          
             Task.Run(async () => await UpdateOrderStatus(newOrder));
         }
-
-        private async Task UpdateOrderStatus(Order order)
+        public async Task UpdateOrderStatus(Order order)
         {
-            await Task.Delay(10000); 
+            await Task.Delay(10000);
             order.Status = "Збирається";
             UpdateOrderInFile(order);
-            UserMenu.Invoke("🔄 Статус замовлення оновлено: Збирається");
 
-            await Task.Delay(20000); 
+            ShowToast(order.Status, order); // 👈 всплывашка
+
+            await Task.Delay(20000);
             order.Status = "Готується";
             UpdateOrderInFile(order);
-            UserMenu.Invoke("🔥 Статус замовлення оновлено: Готується");
+            
+            ShowToast(order.Status, order); // 👈 всплывашка
 
             await Task.Delay(30000);
             order.Status = "Готово";
             UpdateOrderInFile(order);
-            UserMenu.Invoke("✅ Статус замовлення  оновлено: Готово! Можна забирати 🚀");
+           
+            ShowToast(order.Status, order); // 👈 всплывашка
         }
+
 
         private void UpdateOrderInFile(Order updatedOrder)
         {
@@ -129,7 +134,7 @@ namespace MuzCo
             File.WriteAllText(ordersFile, JsonConvert.SerializeObject(orders, Formatting.Indented));
         }
 
-        private void SaveOrder(Order order)
+        public void SaveOrder(Order order)
         {
             List<Order> orders = new List<Order>();
 
@@ -143,6 +148,11 @@ namespace MuzCo
             File.WriteAllText(ordersFile, JsonConvert.SerializeObject(orders, Formatting.Indented));
         }
 
-      
+        private void ShowToast(string statusText, Order order)
+        {
+            OnStatusUpdated?.Invoke(statusText, order);
+
+        }
+
     }
 }

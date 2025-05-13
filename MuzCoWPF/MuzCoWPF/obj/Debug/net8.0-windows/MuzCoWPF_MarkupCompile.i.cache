@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\muzal\source\repos\MuzCo\MuzCoWPF\MuzCoWPF\App.xaml
-1394175318
+22385764521
 
-31-1745750264
+50-1551839462
 20370345774
-MainWindow.xaml;Styles\Button.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\AdminPage.xaml;Views\CartWindow.xaml;Views\CustomerPage.xaml;Views\Home.xaml;Views\LogIn.xaml;Views\Pizzeria.xaml;Views\Register.xaml;Views\StatusOrder.xaml;
+MainWindow.xaml;Styles\Button.xaml;Styles\IconResource.xaml;Styles\Image.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\AddPizza.xaml;Views\AdminPage.xaml;Views\CartWindow.xaml;Views\CustomerPage.xaml;Views\FeedbackPage.xaml;Views\HistoryOrder.xaml;Views\Home.xaml;Views\LeaveFeedbackWindow.xaml;Views\LogIn.xaml;Views\ManageOrders.xaml;Views\Pizzeria.xaml;Views\ProfileAdminPage.xaml;Views\ProfilePage.xaml;Views\Register.xaml;Views\StatusOrder.xaml;Views\ToastWindow.xaml;
 
-True
+False
 

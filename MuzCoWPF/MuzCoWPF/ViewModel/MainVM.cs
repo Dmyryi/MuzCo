@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MuzCoWPF.ViewModel
 {
-    class MainVM : Utilities.ViewModelBase
+    public class MainVM : Utilities.ViewModelBase
     {
     }
 }

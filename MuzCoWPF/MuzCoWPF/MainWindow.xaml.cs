@@ -36,6 +36,12 @@ public partial class MainWindow : Window
         this.WindowState = WindowState.Minimized;
     }
 
+    public void NavigateTo(UserControl page)
+    {
+        MainGrid.Children.Clear();
+        MainGrid.Children.Add(page);
+    }
+
     // Развертывание окна
     private void MaximizeWindow(object sender, System.Windows.Input.MouseButtonEventArgs e)
     {

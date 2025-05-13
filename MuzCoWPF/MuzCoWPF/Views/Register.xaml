@@ -7,6 +7,43 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+
+
+        <Image Source="/Image/BackgroundAuthorization.png"
+               Stretch="Fill"
+               Panel.ZIndex="0" />
+
+        <Rectangle Fill="#66000000"
+                   Panel.ZIndex="1" />
+
+
+        <Border Background="#CC1E1E1E"
+                Width="470"
+                Padding="30"
+                CornerRadius="20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Panel.ZIndex="2" Height="478"
+                >
+
+            <StackPanel>
+
+                <Image Source="/Image/logoMuzCo.png"
+                       Width="50"
+                       Height="50"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,20" />
+
+                <TextBlock Text="Реєстрація"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           Foreground="White"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,25" />
+
+             
+            </StackPanel>
+        </Border>
+
     </Grid>
 </UserControl>

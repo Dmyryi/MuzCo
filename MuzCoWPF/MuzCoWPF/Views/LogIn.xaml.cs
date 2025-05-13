@@ -24,6 +24,7 @@ namespace MuzCoWPF.Views
         public LogIn()
         {
             InitializeComponent();
+           
         }
 
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)

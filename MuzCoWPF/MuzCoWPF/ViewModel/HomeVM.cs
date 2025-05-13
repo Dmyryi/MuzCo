@@ -9,7 +9,7 @@ using System.Windows.Input;
 
 namespace MuzCoWPF.ViewModel
 {
-    class HomeVM:Utilities.ViewModelBase
+    public class HomeVM:Utilities.ViewModelBase
     {
         public ICommand PizzeriaCommand { get; }
 

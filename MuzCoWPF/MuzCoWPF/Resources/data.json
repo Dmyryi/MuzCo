@@ -1,75 +1,92 @@
 [
-    {
-        "Name": "Маргарита",
-        "Price": 125,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Margarita_1024x1024_0.png"
-    },
-    {
-        "Name": "Пепероні",
-        "Price": 139,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Pepperoni_1024x1024_0.png"
-    },
-    {
-        "Name": "Гавайська",
-        "Price": 145,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Hawaiian_1024x1024_0.png"
-    },
-    {
-        "Name": "Чотири сири",
-        "Price": 149,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/FourCheeses_1024x1024_0.png"
-    },
-    {
-        "Name": "Карбонара",
-        "Price": 135,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Carbonara_1024x1024_0.png"
-    },
-    {
-        "Name": "Грибна",
-        "Price": 129,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Mushroom_1024x1024_0.png"
-    },
-    {
-        "Name": "BBQ",
-        "Price": 155,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/BBQ_1024x1024_0.png"
-    },
-    {
-        "Name": "7Up 0.3",
-        "Price": 30,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/7UP05L_1024x1024_0.png"
-    },
-    {
-        "Name": "Пепсі 0.5",
-        "Price": 30,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/PepsiBlack05L_1024x1024_0.png"
-    },
-    {
-        "Name": "Садочок яблуко 0.2",
-        "Price": 30,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/AppleJuiceForKids02_1024x1024_0.png"
-    },
-    {
-        "Name": "Соус Теріякі",
-        "Price": 12,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/AppleJuiceForKids02_1024x1024_0.png"
-    },
-    {
-        "Name": "Соус Барбекю",
-        "Price": 12,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/7e9675bb-92e0-11ef-8aca-001dd8b75f51_1024x1024_0.png"
-    },
-    {
-        "Name": "Соус Бургер",
-        "Price": 12,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/1e4bdb53-92e1-11ef-8aca-001dd8b75f51_1024x1024_0.png"
-
-
-    },
-    {
-        "Name": "Соус Світ чілі",
-        "Price": 30,
-        "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/4c144c32-92e1-11ef-8aca-001dd8b75f51_1024x1024_0.png"
-    }
-
+  {
+    "Name": "Маргарита",
+    "Price": 125.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Margarita_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "Пепероні",
+    "Price": 139.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Pepperoni_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "Гавайська",
+    "Price": 145.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Hawaiian_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "Чотири сири",
+    "Price": 149.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/FourCheeses_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "Карбонара",
+    "Price": 135.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Carbonara_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "Грибна",
+    "Price": 129.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/Mushroom_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "BBQ",
+    "Price": 155.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/BBQ_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "7Up 0.3",
+    "Price": 30.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/7UP05L_1024x1024_0.png",
+    "Type": 1
+  },
+  {
+    "Name": "Пепсі 0.5",
+    "Price": 30.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/PepsiBlack05L_1024x1024_0.png",
+    "Type": 1
+  },
+  {
+    "Name": "Садочок яблуко 0.2",
+    "Price": 30.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/AppleJuiceForKids02_1024x1024_0.png",
+    "Type": 1
+  },
+  {
+    "Name": "Соус Барбекю",
+    "Price": 12.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/7e9675bb-92e0-11ef-8aca-001dd8b75f51_1024x1024_0.png",
+    "Type": 2
+  },
+  {
+    "Name": "Соус Бургер",
+    "Price": 12.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/1e4bdb53-92e1-11ef-8aca-001dd8b75f51_1024x1024_0.png",
+    "Type": 2
+  },
+  {
+    "Name": "Соус Світ чілі",
+    "Price": 30.0,
+    "Image": "https://ecompizzaday.s3.eu-west-2.amazonaws.com/pizzadayapptest/4c144c32-92e1-11ef-8aca-001dd8b75f51_1024x1024_0.png",
+    "Type": 2
+  },
+  {
+    "Name": "Бір Бургер",
+    "Price": 123.0,
+    "Image": "C:\\Users\\muzal\\OneDrive\\Документы\\pizzaDay pizza\\BerBurger_1024x1024_0.png",
+    "Type": 0
+  },
+  {
+    "Name": "Red Bull",
+    "Price": 50.0,
+    "Image": "C:\\Users\\muzal\\OneDrive\\Документы\\pizzaDay pizza\\RedBull_1024x1024_0.png",
+    "Type": 1
+  }
 ]

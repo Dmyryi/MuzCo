@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-
-using MuzCoWPF.Utilities;
-using MuzCo;
+﻿using System.Diagnostics;
 using System.Windows;
+using System.Windows.Input;
+using MuzCo;
+using MuzCoWPF.Utilities;
+using Newtonsoft.Json;
 
 namespace MuzCoWPF.ViewModel
 {
-    public class LogInVM:ViewModelBase
+    public class LogInVM : ViewModelBase
     {
-
+        private readonly NavigationVM _nav;
+        private Customer _customer;
         private string _username;
         public string Username
         {
@@ -32,10 +27,11 @@ namespace MuzCoWPF.ViewModel
 
         public ICommand LogInCommand { get; }
         public ICommand RegisterCommand { get; }
+        public ICommand PizzeriaCommand { get; }
 
-        public LogInVM()
+        public LogInVM(NavigationVM navigation)
         {
-            Debug.WriteLine("Переключение на LogInVM");
+            _nav = navigation;
 
             User.OnUserLoggedIn += msg => MessageBox.Show(msg);
             User.OnLogInFailed += msg => MessageBox.Show("⛔ " + msg);
@@ -44,17 +40,55 @@ namespace MuzCoWPF.ViewModel
 
             LogInCommand = new RelayCommand(_ => ExecuteLogIn());
             RegisterCommand = new RelayCommand(_ => ExecuteRegister());
-
+            PizzeriaCommand = NavigationVM.Instance.PizzeriaCommand;
         }
 
         private void ExecuteLogIn()
         {
-            User.LogIn(Username, Password, "users.json");
+            var user = User.LogIn("C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Resources\\users.json", Username, Password);
+            var users = User.LoadUser("C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Resources\\users.json");
+
+            foreach (var us in users)
+            {
+                Debug.WriteLine($"👤 {us.UserName} | {us.Password} | Role: {us.UserRole}");
+            }
+
+
+            if (user != null)
+            {
+                MessageBox.Show($"Роль: {user.UserName} → {user.UserRole}");
+
+
+
+                Customer customer = user as Customer;
+
+                NavigationVM.Instance.CurrentUser = customer;
+                if (user.UserRole == UserRole.Admin)
+                 
+                _nav.CurrentView = new AdminVM(_nav, customer);
+                else
+                {
+                  
+                
+                    _nav.CurrentView = new CustomerVM(_nav, customer);
+
+                }
+                   
+                
+            }
         }
 
         private void ExecuteRegister()
         {
-            User.Register(Username, Password, "users.json");
+            string path = "C:\\Users\\muzal\\source\\repos\\MuzCo\\MuzCoWPF\\MuzCoWPF\\Resources\\users.json";
+
+            var user = User.Register(path, Username, Password);
+
+            if (user != null && user is Customer customer)
+            {
+                NavigationVM.Instance.CurrentUser = customer;
+                _nav.CurrentView = new CustomerVM(_nav, customer);
+            }
         }
     }
 }

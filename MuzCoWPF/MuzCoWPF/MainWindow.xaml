@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:MuzCoWPF"
         xmlns:vm="clr-namespace:MuzCoWPF.ViewModel"
         mc:Ignorable="d"
+        xmlns:v ="clr-namespace:MuzCoWPF.Utilities"
         xmlns:svg="http://sharpvectors.codeplex.com/svg/"
-       xmlns:Menu ="clr-namespace:MuzCoWPF.Utilities"
+       xmlns:Menu ="clr-namespace:MuzCoWPF.Utilities" xmlns:v1="clr-namespace:MuzCoWPF.Views"
         Title="Піццерія" Height="600" Width="1050"
         AllowsTransparency="True" WindowStartupLocation="CenterScreen" WindowStyle="None" MouseDown="Window_MouseDown" Background="Transparent">
     <Window.DataContext>
@@ -18,8 +19,8 @@
         <FontFamily x:Key="CustomFont">/MuzCoWPF;component/Fonts/Lobster/#Lobster</FontFamily>
     </Window.Resources>
 
-    <Grid>
-
+    <Grid x:Name="MainGrid" >
+       
         <ContentControl x:Name="MainContent" Content="{Binding CurrentView}" />
     </Grid>
 </Window>

@@ -44,11 +44,25 @@
                            Margin="0,0,0,25" />
 
                 <Border Background="Black" CornerRadius="20,20,20,20" Height="40" Margin="0,0,0,30">
-                    <TextBlock Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
+                    <TextBox Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" 
+         Background="Black" 
+         Foreground="White"
+         BorderThickness="0"
+         Margin="29,0,0,0"
+         VerticalAlignment="Center"
+         />
+
                 </Border>
 
                 <Border Background="Black" CornerRadius="20,20,20,20" Height="40" Margin="0,0,0,30">
-                    <PasswordBox x:Name="PasswordBox" PasswordChanged="PasswordBox_PasswordChanged"  Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="29,0,0,0"/>
+                    <PasswordBox x:Name="PasswordBox"
+             PasswordChanged="PasswordBox_PasswordChanged"
+             Foreground="White"
+             CaretBrush="White"
+             Background="Black"
+             BorderThickness="0"
+             Margin="29,0,0,0"
+             VerticalAlignment="Center" />
                 </Border>
 
                 <Button Content="Увійти"
@@ -60,7 +74,25 @@
                         Height="45"
                         BorderThickness="0"
                        />
+                <Button Content="Реєстрація"
+              Command="{Binding RegisterCommand}"
+                        Background="#FFFC5C45"
+                        Foreground="White"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        Height="45"
+                        BorderThickness="0,0,0,0" Margin="0,7,0,0"
+                       />
 
+                <Button Content="Назад"
+                        Command="{Binding PizzeriaCommand}"
+                                Background="#FFFC5C45"
+        Foreground="White"
+        FontSize="16"
+        FontWeight="Bold"
+        Height="45"
+        BorderThickness="0" Margin="0,10,0,0"
+                        />
             </StackPanel>
         </Border>
 

@@ -2,6 +2,9 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Views\AddPizza.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\AdminPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -11,19 +14,40 @@
     <Compile Update="Views\CustomerPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\FeedbackPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HistoryOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Home.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\LeaveFeedbackWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\LogIn.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ManageOrders.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\Pizzeria.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ProfileAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ProfilePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Register.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\StatusOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ToastWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
