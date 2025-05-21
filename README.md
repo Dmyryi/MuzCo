@@ -76,7 +76,7 @@
 
 ## 📂 Репозиторій
 
-🔗 [GitHub – OOP_Project]([https://github.com/Dmyryi/MuzCo/])
+🔗 [GitHub – OOP_Project](https://github.com/Dmyryi/MuzCo/)
 
 ---
 
